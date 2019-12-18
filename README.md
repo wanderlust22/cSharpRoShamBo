@@ -1,18 +1,18 @@
-# Project
-##### By Name
-###### Created 19 December, 2019
+# RoShamBo
+##### Will Quanstrom and Wei Dai
+###### Created 18 December, 2019
 
 ## Description
 
-This project allows users to ...
+Two players can play rock, paper, scissors against each other. The console app judges who the winner is. Additionally, a player may play against the computer.
 
 ## Links:
 
-Github - https://github.com/ (Name/ProjectName)
+Github - https://github.com/ (c-rockpaper in wanderlust22 or weidai07 accounts)
 
 ## Setup/Installation Requirements:
 
-1. Open https://github.com/ (Name/ProjectName)
+1. Open https://github.com/ 
 2. Clone repository to local machine 
 3. Build and Run project
 
@@ -21,9 +21,14 @@ Github - https://github.com/ (Name/ProjectName)
   - $ dotnet test - for testing the project
   
 
-### Specification
+### Specifications
 
-  This programs allows users to ...
+| Spec.   | Ex. Input(s)  | Ex. Output  |  
+|---|---|---|---|---|
+| If one user puts in 'rock' and another puts in 'scissors', Rock wins  | 'Rock' -- 'Scissors'  | Rock wins | 
+| If one user chooses 'scissors' and another chooses 'paper', Paper wins  | 'Scissors' -- 'Paper'  | Scissors wins  |  
+| If one user chooses 'paper' and another chooses 'rock,' Paper wins  | 'Paper' -- 'Rock'  | Paper wins  |  
+| If both users choose the same item, there is a draw. | "Rock" -- "Rock" | Draw|
 
 ## Known Bugs
 
@@ -36,7 +41,7 @@ Github - https://github.com/ (Name/ProjectName)
 
 ### License:
 
-Copyright (c) 2019 Name
+Copyright (c) 2019 Will Quanstrom and Wei Dai
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
